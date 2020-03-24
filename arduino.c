@@ -15,15 +15,7 @@ servo1.attach(7);
 void loop() {
   ultra();
   servo1.write(0);
-  if(distance <= 10){#include <Servo.h>
-Servo servo1;
-int trigPin = 9;
-int echoPin = 8;
-long distance;
-long duration;
- 
-
-}
+  if(distance <= 10){
   servo1.write(135);
   }
 }
